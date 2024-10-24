@@ -176,18 +176,22 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="colophon"><a class="header" href="#colophon">Colophon</a></h1>
-<p>The "source code" for this document is here:</p>
-<p><a href="https://github.com/ts4z/barge-rulebook">https://github.com/ts4z/barge-rulebook</a></p>
-<p>This document is written in Markdown with a tool called
+<p>This book is available in one of three ways:</p>
+<ul>
+<li>Web: <a href="https://ts4z.github.io/barge-rulebook">https://ts4z.github.io/barge-rulebook</a></li>
+<li>PDF: (location TBD)</li>
+<li>Source: <a href="https://github.com/ts4z/barge-rulebook">https://github.com/ts4z/barge-rulebook</a></li>
+</ul>
+<p>This document is written in Markdown, with a tool called
 <a href="https://rust-lang.github.io/mdBook/">mdbook</a> that makes it pretty easy to
-navigate.</p>
+navigate.  mdbook produces a pretty good printed copy.</p>
 <p>A GitHub workflow is used to build the rulebook into this version hosted in
-GitHub pages here:</p>
-<p><a href="https://ts4z.github.io/barge-rulebook">https://ts4z.github.io/barge-rulebook</a></p>
+GitHub pages (at the web link above).</p>
 <p>The "dead tree PDF edition" of the rulebook, intended for paper and to be used
-at a poker table, is produced via a perl script that wraps CommonMark and LaTeX
-and produces PDF. This is available with the rest of the source code above.  It
-is a very limited translator but it works for most of the use cases.</p>
+at a poker table, is produced via a perl script that extracts the file list
+from the mdbook configuration, uses CommonMark (a Markdown library) to produce
+LaTeX, then doctors that up with a perl script.  All of the pieces are either
+free software or included at with the rest of the source code above.</p>
 
                     </main>
 
